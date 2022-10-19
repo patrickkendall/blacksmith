@@ -1,0 +1,46 @@
+.beatsbody {
+    background: url(../../assets/images/2.jpg);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.audio-container {
+    width: 100%;
+    margin-left: 20px;
+}
+
+::ng-deep * {
+    overflow: hidden !important;
+}
+
+::ng-deep .mat-accordion {
+    position: absolute;
+    padding-top: 0px !important;
+    margin-top: -10px !important;
+    margin-left: -10px;
+    width: 1100px;
+}
+
+::ng-deep .ngx-px-1 {
+    width: 300px !important;
+}
+
+::ng-deep .mat-paginator-page-size-label {
+    position: absolute !important;
+    color: gold ;
+    bottom: 70px;
+    left: 30px;
+}
+
+::ng-deep .mat-paginator-container {
+    color: gold ;
+    bottom: 70px;
+    margin-left: 320px !important;
+}
